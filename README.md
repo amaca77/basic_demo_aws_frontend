@@ -14,7 +14,7 @@ npm install
 npm run dev
 \`\`\`
 
-## Características
+## Características - Leer bien bien
 
 - Lista de productos responsive
 - Páginas de detalle de productos
