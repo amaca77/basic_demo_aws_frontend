@@ -14,7 +14,7 @@ export default function ProductsList() {
     const fetchProducts = async () => {
       try {
         setLoading(true);
-        const response = await axios.get('http://localhost:8000/api/products/');
+        const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/products/`);
         setProducts(response.data);
         setError(null);
       } catch (err) {
